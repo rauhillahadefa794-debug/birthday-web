@@ -11,7 +11,8 @@ btn.addEventListener("click", () => {
 function explodeConfetti(x, y){
   const colors = ["#ff0","#0ff","#f0f","#0f0","#f00","#00f","#ffa500"];
 
-  for(let i=0;i<150;i++){
+  let count = window.innerWidth < 600 ? 60 : 150;
+for(let i=0;i<count;i++){
     const confetti = document.createElement("div");
     confetti.classList.add("confetti");
 
