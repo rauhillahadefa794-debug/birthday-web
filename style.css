@@ -33,6 +33,11 @@ body{
   transition:1s;
 }
 
+.massage{
+    opacity:0;
+  transition:1s;
+}
+
 button{
   margin-top:20px;
   padding:12px 24px;
